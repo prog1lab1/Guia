@@ -1,9 +1,10 @@
-/* Programa: Ej01_Buc.c
+/* 
+Programa: Ej01_Buc.c
 Descripción: Ingresar 10 números e informar el promedio.
 Autor: Daniel Benitez
 Modificó:
 */
-#include<stdio.h>
+#include<stdio.h> //comentario
 
 int main() {
     int sum, prom;

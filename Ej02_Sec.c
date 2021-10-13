@@ -13,13 +13,13 @@ int main()
     int superficie;
 
     //Entrada de Datos
-    printf("Ingrese la base del Triángulo:");
+    printf("Ingrese la base del rectángulo:");
     scanf("%d", &base);
-    printf("Ingrese la altura del Triángulo:");
+    printf("Ingrese la altura del rectángulo:");
     scanf("%d", &altura);
 
     //Cálculo de la superficie
-    superficie = (base * altura) / 2;
+    superficie = (base * altura);
 
-    printf("La superficie del Triángulo es: %d", superficie);
+    printf("La superficie del rectángulo es: %d", superficie);
 }
