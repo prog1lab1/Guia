@@ -6,6 +6,8 @@
 */
 #include <stdio.h>
 
+#define PI 3.14159  //Constante
+
 int main()
 {
     int base;
