@@ -20,6 +20,6 @@ int main() {
         } else {
             prod = prod * aux;
         }
-    }
+    }  
     printf("El producto es: %d\n", prod);
 }
