@@ -30,4 +30,5 @@ int main() {
     }
     //Informo resultados
     printf("La aproximacion es: %f\n", resultado);
+    printf("El aprox de PI: %f\n", (resultado*2.0));  // PI / 2.... resultado * 2
 }

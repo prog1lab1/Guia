@@ -19,7 +19,7 @@ int main() {
     cont = 0;
     //Inicializo el sumador
     sum = 0;
-    //Comienzo el ciclo 
+    //Comienzo el ciclo     
     for(;;) {
         printf("Ingrese un número (0 para terminar): ");
         scanf("%d", &aux);
@@ -27,8 +27,8 @@ int main() {
         if (aux == 0) { //Ingreso un 0 termino el proceso
             break;
         } else {
-            cont++;             //contador de numeros ingresados
-            sum = sum + aux;    //sumador
+            cont = cont + 1;    //contador de numeros ingresados cont = cont + 1;
+            sum = sum + aux;    //sumador sum += aux
             if (aux % 3 == 0) {
                 cantMultTres++; //contador de multiplos de tres
             }
